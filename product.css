@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ralway' , sans-serif;
+}
+/* start navbar css */
+.navbar{
+    display: flex;
+    background-color: #928270;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.parent{
+    margin-right: 50px;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+/* End navbar  */
+.main5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    padding-left: 3px;
+    height: 25px;
+}
+button{
+    width: 110px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: #000000;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* start feature product */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    text-align: center;
+    padding-top: 20px;
+}
+hr{
+    width: 70px;
+    text-align: center;
+    margin-left: 723px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+.main{
+    width: 160px;
+    background-color: #928270;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.main:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 8px black;
+}
+.main1{
+    width: 200px;
+}
+.img1{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+}
+h4{
+    font-size: small;
+}
+p{
+    color: #000000;
+    font-size: normal;
+}
+i{
+    width: 9px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.main-div{
+    display: flex;
+    padding-left: 422px;
+}
+.content-div{
+    width: 30px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+.conmtent-div:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(20, 18, 18, 0.5);
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #928270;
+    height: 100px;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    text-align: end; 
+    margin-top: 40px;
+    padding-top: 50px;
+}
+.a{
+    font-size: 14px;
+
+}
+h4{
+    padding-bottom: 15px;
+}

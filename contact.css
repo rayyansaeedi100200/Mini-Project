@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ralway' , sans-serif;
+}
+/* start navbar css */
+.navbar{
+    display: flex;
+    background-color: #928270;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.parent{
+    margin-right: 50px;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+/* End navbar  */
+
+
+
+h1{
+    padding-top: 100px;
+    text-align: center;
+}
+hr{
+    text-align: center;
+    width: 100px;
+    text-align: center;
+    margin-left: 715px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.content{
+    text-align: center;
+}
+input{
+    font-size: x-large;
+    width: 60%;
+    margin-top: 5px;
+}
+
+button{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 690px;
+    width: 150px;
+    font-size: large;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}

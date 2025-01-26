@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ralway' , sans-serif;
+}
+/* start navbar css */
+.navbar{
+    display: flex;
+    background-color: #928270;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.parent{
+    margin-right: 50px;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+/* End navbar  */
+
+
+/* start banner */
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+.col-1{
+   padding-top: 150px;
+   padding-right: 40px;
+   padding-left: 40px;
+}
+.col-2{
+   padding-top: 150px;
+   padding-right: 40px;
+}
+h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px ;
+}
+img{
+    width: 600px;
+    height: 550px;
+}
+button{
+    margin-top: 20px;
+    width: 120px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 25px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: none;
+}
+
+/* end banner  */
+
+/* start feature product */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    text-align: center;
+    padding-top: 20px;
+}
+hr{
+    width: 70px;
+    text-align: center;
+    margin-left: 723px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+.main{
+    width: 160px;
+    background-color: #928270;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.main1{
+    width: 200px;
+}
+.img1{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+}
+h4{
+    font-size: small;
+}
+p{
+    color: #000000;
+    font-size: normal;
+}
+i{
+    width: 9px;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+footer{
+    background-color: #928270;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer1{
+    padding-left: 20px;
+}
+.footer1 h4{
+    font-size: large;
+}
+.footer2 h4{
+    font-size: 16px;
+}
+.footer3{
+    padding-right: 20px;
+}
+.Copyright{
+    text-align: center;
+}
+
